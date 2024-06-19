@@ -4,8 +4,8 @@ class House:
 
     def setNewNumberOfFloors(self, floors):
         self.floors = floors
-        numberOfFloors = floors
-        print(numberOfFloors)
+        House.numberOfFloors = floors
+        print(House.numberOfFloors)
 
 
 Floor = House(0)
